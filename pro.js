@@ -20,3 +20,10 @@ function agregarElemento(){
     }
     
 }
+
+function resetElements(){
+
+    elementos = []
+    contenedor.innerHTML = ""
+
+}
