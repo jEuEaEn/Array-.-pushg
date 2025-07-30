@@ -1,0 +1,37 @@
+html{
+
+    background-color: rgb(160, 159, 159);
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+main{
+
+    border-radius: 20px;
+    background-color: rgb(167, 169, 184);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+}
+
+a{
+
+    border-radius: 20px;
+    margin: 3px;
+    justify-content: center;
+    display: flex;
+    width: 20%;
+    background-color: gray;
+    color: black;
+}
