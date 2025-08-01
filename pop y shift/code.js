@@ -1,4 +1,5 @@
 const popButton = document.getElementById("pop")
+const shiftButton = document.getElementById("shift")
 const resetButton = document.getElementById("reset")
 
 let arreglo = ["Manzana", "Pera", "Kiwi", "Mandarina", "Frutas", "Verduras", "Mesa", "Silla", "Platos"]
@@ -7,6 +8,7 @@ const contenedor = document.getElementById("elementos")
 function actualizar(){
 
     let resultHTML =""
+    
 for(let i = 0; i < arreglo.length; i++){
 
     resultHTML += "<span>" + arreglo[i] + "</span>" 
@@ -26,6 +28,14 @@ function miFuncionDePop(){
 
 }
 
+function miFuncionDeShift(){
+
+    arreglo.shift()
+    console.log(arreglo)
+    actualizar()
+
+}
+
 function miFuncionDeReseteo(){
 
     arreglo = ["Manzana", "Pera", "Kiwi", "Mandarina", "Frutas", "Verduras", "Mesa", "Silla", "Platos"]
@@ -36,6 +46,7 @@ function miFuncionDeReseteo(){
 
 actualizar()
 popButton.addEventListener("click",miFuncionDePop)
+shiftButton.addEventListener("click",miFuncionDeShift)
 resetButton.addEventListener("click",miFuncionDeReseteo)
 
 
