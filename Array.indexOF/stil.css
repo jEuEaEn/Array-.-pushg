@@ -1,0 +1,130 @@
+html{
+
+    background-color: gray;
+    
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+}
+
+body{
+    
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tex{
+
+    border: 1px solid rgba(0, 0, 0, 0.24);
+
+}
+
+.inter{
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+main{
+    
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+    width: 100%;
+    max-width: 525px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: column;
+
+}
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+p{
+
+    margin: 0%;
+
+}
+
+
+
+.contenido{
+
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: rgba(116, 117, 148, 0.527);
+    min-height: 300px;
+
+
+}
+
+h1{
+
+    margin: 0px;
+
+}
+
+h6{
+
+    margin: 10px;
+
+}
+
+.ut{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+span{
+
+    margin: 10px;
+    background-color: rgb(33, 122, 199);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.dec{
+
+    display: flex;
+    align-items: center;
+    background-color: rgba(114, 114, 236, 0.534);
+    min-width: 5px;
+    max-width: 10px;
+    max-height: 10px;
+    min-width: 8px;
+}
+
+.burt{
+
+    background-color: rgb(238, 195, 138);
+    border: 0.9px solid rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    transition: 1s background;
+
+}
+
+.opaco .burt{
+
+    background-color: red;
+
+}
